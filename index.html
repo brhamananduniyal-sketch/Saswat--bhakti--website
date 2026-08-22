@@ -117,7 +117,76 @@
     .section-block {
       margin-bottom: 35px;
     }
-  </style>
+  </style><section id="services" class="section">
+    <h2>हमारी प्रमुख सेवाएं</h2>
+    <div class="services-grid">
+        <div class="service-card">
+            <h3>कुंडली विश्लेषण</h3>
+            <p>जन्म पत्रिका का सूक्ष्म अध्ययन, ग्रह दोष निवारण और भविष्य मार्गदर्शन।</p>
+        </div>
+        <div class="service-card">
+            <h3>वैदिक पूजा एवं अनुष्ठान</h3>
+            <p>महामृत्युंजय जाप, रुद्राभिषेक, नवग्रह शांति और विशेष धार्मिक अनुष्ठान।</p>
+        </div>
+        <div class="service-card">
+            <h3>वास्तु परामर्श</h3>
+            <p>गृह और व्यापार स्थल के लिए संपूर्ण वास्तु दोष निवारण समाधान।</p>
+        </div>
+    </div>
+  </section><section id="about" class="section">
+    <h2>हमारे बारे में</h2>
+    <p>शाश्वत भक्ति ज्योतिष अनुष्ठान केंद्र, बालावाला (देहरादून) में स्थित एक प्रामाणिक केंद्र है, जो सनातन वैदिक परंपराओं के अनुसार ज्योतिषीय मार्गदर्शन और धार्मिक अनुष्ठान प्रदान करता है।</p>
+</section>
+
+<section id="contact" class="section">
+    <h2>संपर्क सूत्र</h2>
+    <p><strong>स्थान:</strong> बालावाला, देहरादून, उत्तराखंड</p>
+    <div class="contact-buttons">
+        <a href="tel:+919927226784" class="btn call-btn">📞 कॉल करें</a>
+        <a href="https://wa.me/918218165256" class="btn whatsapp-btn">💬 व्हाट्सएप पर चैट करें</a>
+    </div>
+</section>.section {
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.service-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contact-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.call-btn { background-color: #7a2800; }
+.whatsapp-btn { background-color: #25d366; }
+  
+  
+  
 </head>
 <body>
 
